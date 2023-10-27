@@ -2,18 +2,31 @@ p{
     margin: 3;
     padding: 0;
     box-sizing: border-box;
-
-    ;
 }
 
 body{
     background-image: url(https://mobicare.co.za/_Webmoduledata/Images/Thumb/R.jpg);
+   
 }
 .navbar{
     background-color: rgb(255, 255, 255);
+   
 }
 .container image{
     justify-content: center;
     align-items: center;
+    
+}
+/* makes the a-link have animation( when user hovers over the element)*/
+
+a {
+    color: rgb(36, 88, 143)!important;
+    transition: all .5s;
+    
+}
+
+a :is(:active, :focus, :hover) {
+    color: #000000!important;
+    transform: scale(1.2);
     
 }
